@@ -3,7 +3,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
 }
 
 button {
@@ -13,7 +12,8 @@ button {
     border-radius: 8px;
     border: 2px solid black;
     font-weight: 800;
-    box-shadow: rgb();
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
 }
 
 input {
@@ -21,7 +21,6 @@ input {
     height: 50px;
     border-radius: 8px;
     border: 2px solid black;
-    box-shadow: rgb();
 }
 
 p {
@@ -41,15 +40,6 @@ h1 {
 }
 
 button:hover {
-    animation: pop ease-in-out;
-}
-
-@keyframes pop {
-    0% {
-        transform: scale(1)
-    }
-
-    50% {
-        transform: scale
-    }
+    transform: scale(1.04);
+    border: 2px solid green;
 }
