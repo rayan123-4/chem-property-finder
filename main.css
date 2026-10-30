@@ -1,0 +1,47 @@
+body {
+    background: #FCEFBE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: ;
+    font-weight: 100;
+}
+
+button:hover {
+    animation: pop ease-in-out;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale
+    }
+}
